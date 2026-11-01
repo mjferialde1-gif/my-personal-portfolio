@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MJ B Ferialde | Personal Portfolio</title>
+  <meta name="description" content="The personal portfolio of MJ B Ferialde, an 18-year-old from Maria Aurora, Aurora.">
+  <meta name="theme-color" content="#FFF7EC">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23B84A12'/%3E%3Ctext x='32' y='42' font-size='26' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23FFF7EC'%3EMJ%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts (fallbacks are set in style.css, so the site still works offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="MJ B Ferialde, back to top">MJ</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#childhood">Childhood</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href="#dreams">Dreams</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 1. HOME ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hello">Hello, and welcome!</p>
+          <h1 id="hero-title">I'm MJ B Ferialde.</h1>
+          <p class="lead">
+            I'm eighteen, curious about everything, and proud to call Maria Aurora home.
+            This little corner of the internet is where I keep my story: who I am,
+            where I came from, and where I'm headed.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#about">Get to know me</a>
+            <a class="btn btn-ghost" href="#dreams">See my dreams</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="arch arch-back" aria-hidden="true"></div>
+          <figure class="arch arch-front">
+            <!-- Replace assets/profile.jpg with your own photo (keep the same file name) -->
+            <img src="assets/profile.jpg" width="800" height="1000" alt="Portrait of MJ B Ferialde" fetchpriority="high">
+          </figure>
+          <p class="photo-tag">Maria Aurora, Aurora</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-head">
+          <h2 id="about-title">About myself</h2>
+          <p class="section-sub">A quick hello before the long story.</p>
+        </div>
+
+        <article class="card about-card">
+          <dl class="facts">
+            <div><dt>Name</dt><dd>MJ B Ferialde</dd></div>
+            <div><dt>Age</dt><dd>18 years old</dd></div>
+            <div><dt>Address</dt><dd>Purok 5 Sto. Tomas, Maria Aurora, Aurora</dd></div>
+          </dl>
+          <div class="about-text">
+            <p>
+              I'm a friendly, down-to-earth eighteen-year-old who loves learning new things
+              and meeting new people. I grew up surrounded by family, warm food, and the
+              easygoing pace of life in Aurora.
+            </p>
+            <p>
+              I believe small, steady steps lead to big things. This website is one of mine,
+              and I'm happy you stopped by.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 3. MY PHOTOS ============ -->
+    <section class="section section-tint" id="photos" aria-labelledby="photos-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="photos-title">My photos</h2>
+          <p class="section-sub">Moments I'd like to keep.</p>
+        </div>
+
+        <!-- To change a photo: put your image in assets/photos/ and update the src and caption below -->
+        <div class="gallery">
+          <figure class="shot shot-tall">
+            <img src="assets/photos/photo-1.jpg" width="800" height="800" alt="Gallery photo 1" loading="lazy">
+            <figcaption>Caption for photo one</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/photos/photo-2.jpg" width="800" height="800" alt="Gallery photo 2" loading="lazy">
+            <figcaption>Caption for photo two</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/photos/photo-3.jpg" width="800" height="800" alt="Gallery photo 3" loading="lazy">
+            <figcaption>Caption for photo three</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/photos/photo-4.jpg" width="800" height="800" alt="Gallery photo 4" loading="lazy">
+            <figcaption>Caption for photo four</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/photos/photo-5.jpg" width="800" height="800" alt="Gallery photo 5" loading="lazy">
+            <figcaption>Caption for photo five</figcaption>
+          </figure>
+          <figure class="shot shot-wide">
+            <img src="assets/photos/photo-6.jpg" width="800" height="800" alt="Gallery photo 6" loading="lazy">
+            <figcaption>Caption for photo six</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. MY CHILDHOOD ============ -->
+    <section class="section childhood" id="childhood" aria-labelledby="childhood-title">
+      <div class="container childhood-grid">
+        <div class="childhood-story">
+          <h2 id="childhood-title">My childhood</h2>
+          <p class="section-sub">Where it all began.</p>
+          <p>
+            Write your childhood story here. Think about the games you played, the
+            neighbors you grew up beside, the foods you waited for all week, and the
+            people who raised you.
+          </p>
+          <p>
+            Even small memories matter: muddy afternoons, rainy-day stories, the first
+            time you rode a bike. They are what made you, you.
+          </p>
+          <blockquote>
+            "Add a favorite saying or memory from your younger years here."
+          </blockquote>
+        </div>
+
+        <div class="polaroids">
+          <figure class="polaroid p1">
+            <img src="assets/childhood/childhood-1.jpg" width="600" height="600" alt="Childhood photograph 1" loading="lazy">
+            <figcaption>Little me</figcaption>
+          </figure>
+          <figure class="polaroid p2">
+            <img src="assets/childhood/childhood-2.jpg" width="600" height="600" alt="Childhood photograph 2" loading="lazy">
+            <figcaption>Family days</figcaption>
+          </figure>
+          <figure class="polaroid p3">
+            <img src="assets/childhood/childhood-3.jpg" width="600" height="600" alt="Childhood photograph 3" loading="lazy">
+            <figcaption>Playtime</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. MY HOBBIES ============ -->
+    <section class="section section-tint" id="hobbies" aria-labelledby="hobbies-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="hobbies-title">My hobbies</h2>
+          <p class="section-sub">What I do when the day is mine.</p>
+        </div>
+
+        <div class="hobby-grid">
+          <article class="hobby">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></svg>
+            <h3>Listening to music</h3>
+            <p>Describe how music shapes your days, and the songs you keep on repeat.</p>
+          </article>
+          <article class="hobby">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg>
+            <h3>Reading and learning</h3>
+            <p>Share the books, topics, or skills you love picking up in your free time.</p>
+          </article>
+          <article class="hobby">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <h3>Taking photos</h3>
+            <p>Tell us about the little moments and places you like to capture.</p>
+          </article>
+          <article class="hobby">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-9-9.2C1.8 8.2 4 5 7.2 5c1.9 0 3.3 1 4.8 3 1.5-2 2.9-3 4.8-3C20 5 22.2 8.2 21 11.8C19 16.6 12 21 12 21z"/></svg>
+            <h3>Time with loved ones</h3>
+            <p>Family dinners, barkada hangouts, and everything in between.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. MY FAVORITES ============ -->
+    <section class="section" id="favorites" aria-labelledby="fav-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="fav-title">My favorites</h2>
+          <p class="section-sub">The little things I love most.</p>
+        </div>
+
+        <div class="fav-grid">
+          <article class="fav fav-food">
+            <h3>Favorite food</h3>
+            <p class="fav-big">Your all-time comfort dish</p>
+            <p>Add the meal that tastes like home, and who usually cooks it.</p>
+          </article>
+
+          <article class="fav fav-music">
+            <h3>Favorite music</h3>
+            <p class="fav-big">Songs and artists</p>
+            <p>List the artists or genres that make you hit replay.</p>
+            <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="fav fav-color">
+            <h3>Favorite color</h3>
+            <p class="fav-big">Orange, of course</p>
+            <ul class="swatches" aria-label="Color palette used on this site">
+              <li style="--c:#B84A12"><span>Burnt orange</span></li>
+              <li style="--c:#E8793A"><span>Soft orange</span></li>
+              <li style="--c:#FFD2AE"><span>Peach</span></li>
+              <li style="--c:#EBDAC0"><span>Beige</span></li>
+              <li style="--c:#FFF7EC"><span>Cream</span></li>
+            </ul>
+          </article>
+
+          <article class="fav fav-movies">
+            <h3>Favorite movies</h3>
+            <ol class="movie-list">
+              <li>Movie title one</li>
+              <li>Movie title two</li>
+              <li>Movie title three</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. MY DREAMS AND GOALS ============ -->
+    <section class="dreams" id="dreams" aria-labelledby="dreams-title">
+      <div class="container dreams-grid">
+        <div class="dreams-intro">
+          <h2 id="dreams-title">My dreams and goals</h2>
+          <p class="dreams-lead">
+            I'm still at the start of the road, and that's the best place to be.
+          </p>
+          <p>
+            Write about the career you want, the people you want to take care of,
+            and the kind of person you hope to become.
+          </p>
+        </div>
+
+        <ol class="goals">
+          <li>
+            <h3>Finish my studies</h3>
+            <p>Describe your education plans and what you want to learn.</p>
+          </li>
+          <li>
+            <h3>Build a career I'm proud of</h3>
+            <p>Share the work you dream of doing and why it matters to you.</p>
+          </li>
+          <li>
+            <h3>Take care of my family</h3>
+            <p>Tell us how you hope to give back to the people who raised you.</p>
+          </li>
+          <li>
+            <h3>Keep growing</h3>
+            <p>Add a personal goal: travel, a new skill, or a quiet life goal.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer-name">MJ B Ferialde</p>
+    <p>Purok 5 Sto. Tomas, Maria Aurora, Aurora</p>
+    <p class="footer-small">&copy; <span id="year">2026</span> MJ B Ferialde. <a href="#home">Back to top</a></p>
+  </footer>
+
+  <script>
+    // ----- Mobile menu toggle -----
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+    links.addEventListener('click', (e) => {
+      if (e.target.tagName === 'A') {
+        links.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open menu');
+      }
+    });
+
+    // ----- Highlight the nav link of the section in view -----
+    const navAnchors = document.querySelectorAll('.nav-links a');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          navAnchors.forEach((a) => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+          });
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    document.querySelectorAll('main section[id]').forEach((s) => observer.observe(s));
+
+    // ----- Footer year -----
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
